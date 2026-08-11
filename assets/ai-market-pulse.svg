@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Jonathan Kenneth — AI and market systems</title>
+  <desc id="desc">Animated market signal flowing into an artificial intelligence network.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#071426"/>
+      <stop offset="55%" stop-color="#0b2239"/>
+      <stop offset="100%" stop-color="#071426"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="55%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity=".7"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#7dd3fc" stroke-opacity=".08" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <style>
+    .signal { stroke-dasharray: 1; stroke-dashoffset: 1; animation: draw 3.2s ease-in-out infinite alternate; }
+    .stream { stroke-dasharray: 8 14; animation: flow 1.8s linear infinite; }
+    .node { transform-box: fill-box; transform-origin: center; animation: pulse 2.4s ease-in-out infinite; }
+    .node:nth-of-type(2n) { animation-delay: -.8s; }
+    .node:nth-of-type(3n) { animation-delay: -1.6s; }
+    .float { animation: float 4s ease-in-out infinite; }
+    .fade { animation: fade 4s ease-in-out infinite; }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    @keyframes flow { to { stroke-dashoffset: -44; } }
+    @keyframes pulse { 0%,100% { opacity:.55; transform:scale(.82); } 50% { opacity:1; transform:scale(1.18); } }
+    @keyframes float { 0%,100% { transform:translateY(0); } 50% { transform:translateY(-7px); } }
+    @keyframes fade { 0%,100% { opacity:.35; } 50% { opacity:.9; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+
+  <rect width="1200" height="300" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="24" fill="url(#grid)"/>
+  <circle cx="112" cy="62" r="105" fill="url(#glow)" opacity=".12"/>
+  <circle cx="1080" cy="245" r="155" fill="url(#glow)" opacity=".1"/>
+
+  <g class="float">
+    <text x="64" y="82" fill="#e6f6ff" font-family="Segoe UI,Arial,sans-serif" font-size="48" font-weight="750" letter-spacing="1">JONATHAN KENNETH</text>
+    <text x="66" y="118" fill="#7dd3fc" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="600" letter-spacing="4">AI × MARKETS × PRODUCTION SYSTEMS</text>
+  </g>
+
+  <g opacity=".32" stroke="#7dd3fc" stroke-width="1">
+    <line x1="730" y1="55" x2="820" y2="92"/><line x1="820" y1="92" x2="910" y2="54"/>
+    <line x1="820" y1="92" x2="914" y2="137"/><line x1="914" y1="137" x2="1016" y2="94"/>
+    <line x1="910" y1="54" x2="1016" y2="94"/><line x1="1016" y1="94" x2="1110" y2="55"/>
+    <line x1="914" y1="137" x2="1022" y2="168"/><line x1="1022" y1="168" x2="1110" y2="126"/>
+  </g>
+  <g fill="#22d3ee" filter="url(#softGlow)">
+    <circle class="node" cx="730" cy="55" r="5"/><circle class="node" cx="820" cy="92" r="7"/>
+    <circle class="node" cx="910" cy="54" r="5"/><circle class="node" cx="914" cy="137" r="7"/>
+    <circle class="node" cx="1016" cy="94" r="6"/><circle class="node" cx="1022" cy="168" r="5"/>
+    <circle class="node" cx="1110" cy="55" r="5"/><circle class="node" cx="1110" cy="126" r="6"/>
+  </g>
+
+  <path class="stream" d="M65 242 C210 218 270 260 390 218 S585 176 700 211 S860 245 970 208 S1080 178 1140 192"
+        fill="none" stroke="#155e75" stroke-width="8" opacity=".45"/>
+  <path class="signal" pathLength="1" d="M65 242 C210 218 270 260 390 218 S585 176 700 211 S860 245 970 208 S1080 178 1140 192"
+        fill="none" stroke="url(#signal)" stroke-width="4" stroke-linecap="round" filter="url(#softGlow)"/>
+  <g fill="#e6f6ff" class="fade">
+    <circle cx="65" cy="242" r="4"/><circle cx="390" cy="218" r="4"/><circle cx="700" cy="211" r="4"/>
+    <circle cx="970" cy="208" r="4"/><circle cx="1140" cy="192" r="4"/>
+  </g>
+</svg>
