@@ -1,10 +1,10 @@
 <div align="center">
 
-# Jonathan Kenneth Gunawan
+<img src="./assets/ai-market-pulse.svg" width="100%" alt="Animated AI and market systems banner for Jonathan Kenneth" />
 
-### Production-minded AI engineer building intelligent systems from data to deployment
-
-Machine learning · Financial AI · Time-series forecasting · LLMs & RAG · Full-stack products
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=23&pause=1100&color=22D3EE&center=true&vCenter=true&width=760&lines=Financial+AI+%26+Market+Intelligence;Time-Series+Forecasting+%26+Applied+ML;LLMs%2C+RAG+%26+Full-Stack+AI+Products;From+Research+to+Reliable+Deployment" alt="Animated roles: Financial AI, forecasting, LLMs, RAG, and deployment" />
+</a>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Explore_my_work-0f172a?style=for-the-badge&logo=vercel&logoColor=white)](https://github.com/JKennethG283/website-portfolio)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Let's_connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jonathan-kenneth-gunawan-8149782a3/)
