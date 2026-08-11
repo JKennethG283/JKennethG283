@@ -3,7 +3,7 @@
 <img src="./assets/ai-market-pulse.svg" width="100%" alt="Animated AI and market systems banner for Jonathan Kenneth" />
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=23&pause=1100&color=22D3EE&center=true&vCenter=true&width=760&lines=Financial+AI+%26+Market+Intelligence;Time-Series+Forecasting+%26+Applied+ML;LLMs%2C+RAG+%26+Full-Stack+AI+Products;From+Research+to+Reliable+Deployment" alt="Animated roles: Financial AI, forecasting, LLMs, RAG, and deployment" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=23&pause=1100&color=22D3EE&center=true&vCenter=true&width=760&lines=Software+Engineer+%7C+End-to-End+Product+Builder;Financial+AI+%26+Market+Intelligence;Time-Series+Forecasting+%26+Applied+ML;LLMs%2C+RAG+%26+Full-Stack+AI+Products;From+Research+to+Reliable+Deployment" alt="Animated roles: Financial AI, forecasting, LLMs, RAG, and deployment" />
 </a>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Explore_my_work-0f172a?style=for-the-badge&logo=vercel&logoColor=white)](https://github.com/JKennethG283/website-portfolio)
@@ -14,11 +14,12 @@
 
 ## About me
 
-I'm a Bachelor of Artificial Intelligence student at the **University of Technology Sydney**, nearing graduation and based in Sydney. I enjoy turning research ideas into end-to-end systems: data collection, feature engineering, modelling, evaluation, APIs, user interfaces, and deployment.
+I'm a **software engineer** and Bachelor of Artificial Intelligence student at the **University of Technology Sydney**, nearing graduation and based in Sydney. I enjoy turning research ideas into end-to-end systems: data collection, feature engineering, modelling, evaluation, APIs, user interfaces, and deployment.
 
 My main interests sit where **AI meets financial markets**—forecasting, market intelligence, sentiment analysis, retrieval-augmented generation, and decision-support tools. I also build computer-vision and full-stack AI applications.
 
-- 🔭 Building reproducible AI products with real interfaces, pipelines, and evaluation
+- 💻 Software engineer building end-to-end products across frontend, backend, APIs, data, and AI
+- 🔭 Building reproducible AI systems with real interfaces, pipelines, and evaluation
 - 📈 Exploring market forecasting, multimodal financial signals, and intelligent research tools
 - 🧠 Deepening my work in NLP, LLM systems, agents, advanced RAG, and reinforcement learning
 - 🌏 Fluent in English and Indonesian; conversational Chinese
